@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>AddIntoLogFile</FUNCTION>
+    <DECORATED>?AddIntoLogFile@@YAHPAUsomeArgs@@PAD11@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>AddIntoLogFile</FUNCTION>
+    <DECORATED>?AddIntoLogFile@@YAHPAUsomeArgs@@PAD11@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "WSAStartup".</DESCRIPTION>
+    <FUNCTION>My_NODE_DIAGNOSTIC</FUNCTION>
+    <DECORATED>?My_NODE_DIAGNOSTIC@@YAHPADPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

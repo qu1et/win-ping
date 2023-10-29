@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "struct statInfo *"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>196</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "struct someArgs *"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>209</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "char **"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyStart</FUNCTION>
+    <DECORATED>?MyStart@@YAHHPAPADPAUargs@@PAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

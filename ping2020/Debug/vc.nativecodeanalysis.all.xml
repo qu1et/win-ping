@@ -1,0 +1,1116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>119</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>AddIntoLogFile</FUNCTION>
+    <DECORATED>?AddIntoLogFile@@YAHPAUsomeArgs@@PAD11@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>AddIntoLogFile</FUNCTION>
+    <DECORATED>?AddIntoLogFile@@YAHPAUsomeArgs@@PAD11@Z</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>Diagnostic.cpp</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "WSAStartup".</DESCRIPTION>
+    <FUNCTION>My_NODE_DIAGNOSTIC</FUNCTION>
+    <DECORATED>?My_NODE_DIAGNOSTIC@@YAHPADPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "unsigned short *"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>ip_checksum</FUNCTION>
+    <DECORATED>?ip_checksum@@YAGPAGH@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>echo_request</FUNCTION>
+    <DECORATED>?echo_request@@YAHPAIPADHHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Разыменование пустого указателя "pIcmpHdr". </DESCRIPTION>
+    <FUNCTION>echo_request</FUNCTION>
+    <DECORATED>?echo_request@@YAHPAIPADHHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" разыменовано, но, возможно, по-прежнему равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"pIcmpHdr" может быть равен "0":  это не соответствует спецификации функции "sendto". Самое раннее расположение, где это могло произойти, см. в строке 60</DESCRIPTION>
+    <FUNCTION>echo_request</FUNCTION>
+    <DECORATED>?echo_request@@YAHPAIPADHHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" является аргументом ввода-вывода для "ip_checksum" (объявлено в c:\users\alkad\onedrive\рабочий стол\myping\ping2020\ping2020\echo_request.h: 38)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "seq_no&gt;=packCount" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" является входными данными для "sendto" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winsock2.h:2100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIcmpHdr" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для "sendto"</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>catcher</FUNCTION>
+    <DECORATED>?catcher@@YAHIPAUsomeArgs@@PAH@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Разыменование пустого указателя "pIPHdr". Самое раннее расположение, где это могло произойти, см. в строке 132</DESCRIPTION>
+    <FUNCTION>catcher</FUNCTION>
+    <DECORATED>?catcher@@YAHIPAUsomeArgs@@PAH@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIPHdr" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"pIPHdr" является аргументом ввода-вывода для "recvfrom" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winsock2.h: 2025)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "bread==((-1))" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIPHdr" разыменовано, но, возможно, по-прежнему равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+      <LINE>132</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"pIPHdr" может быть равен "0":  это не соответствует спецификации функции "recvfrom". </DESCRIPTION>
+    <FUNCTION>catcher</FUNCTION>
+    <DECORATED>?catcher@@YAHIPAUsomeArgs@@PAH@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIPHdr" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"pIPHdr" является аргументом ввода-вывода для "recvfrom" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winsock2.h: 2025)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>ECHO_REQUEST.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"pIPHdr" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для "recvfrom"</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"line" может быть равен "0":  это не соответствует спецификации функции "_read". </DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить этот цикл (предполагается, что "&lt;условие ветви&gt;" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для "_read"</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "line":  доступный для записи объем равен "_Param_(1)*_Param_(2)" байт, однако записать можно только "read_bytes" байт.</DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" является массивом из 512 элементов (512 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"read_bytes" может быть равно NULL (Войти в этот цикл)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "line[4294967295]" (доступный для записи диапазон: от 0 до 511)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Разыменование пустого указателя "line". Самое раннее расположение, где это могло произойти, см. в строке 133</DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "&lt;условие ветви&gt;")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" разыменовано, но, возможно, по-прежнему равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "struct statInfo *"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>196</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "struct someArgs *"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>209</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>MyFinish</FUNCTION>
+    <DECORATED>?MyFinish@@YAXPAUsomeArgs@@H@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6273</DEFECTCODE>
+    <DESCRIPTION>В качестве параметра _Param_(2) передано нецелочисленное значение, хотя при вызове "printf" требуется целочисленное значение; фактический тип: "char **"; если передается значение указателя, следует использовать %p.</DESCRIPTION>
+    <FUNCTION>MyStart</FUNCTION>
+    <DECORATED>?MyStart@@YAHHPAPADPAUargs@@PAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

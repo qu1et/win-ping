@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"line" может быть равен "0":  это не соответствует спецификации функции "_read". </DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить этот цикл (предполагается, что "&lt;условие ветви&gt;" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для "_read"</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Переполнение буфера при записи в "line":  доступный для записи объем равен "_Param_(1)*_Param_(2)" байт, однако записать можно только "read_bytes" байт.</DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" является массивом из 512 элементов (512 байт)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"read_bytes" может быть равно NULL (Войти в этот цикл)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция записи в "line[4294967295]" (доступный для записи диапазон: от 0 до 511)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+      <FILENAME>logger.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Разыменование пустого указателя "line". Самое раннее расположение, где это могло произойти, см. в строке 133</DESCRIPTION>
+    <FUNCTION>print_log</FUNCTION>
+    <DECORATED>?print_log@@YAHPAUsomeArgs@@@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" может быть равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "!sb-&gt;fd_RW" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"line" является входными данными для "_read" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\corecrt_io.h:250)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "&lt;условие ветви&gt;")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\alkad\OneDrive\Рабочий стол\myPing\ping2020\ping2020\</FILEPATH>
+        <FILENAME>logger.cpp</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"line" разыменовано, но, возможно, по-прежнему равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,9 @@
+﻿  Diagnostic.cpp
+C:\Users\alkad\Downloads\myPing\ping2020\ping2020\Diag.h(5,10): fatal error C1083: Не удается открыть файл включение: WinSock2.h: No such file or directory,
+  ECHO_REQUEST.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\yvals.h(12,10): fatal error C1083: Не удается открыть файл включение: crtdbg.h: No such file or directory,
+  logger.cpp
+C:\Users\alkad\Downloads\myPing\ping2020\ping2020\Diag.h(5,10): fatal error C1083: Не удается открыть файл включение: WinSock2.h: No such file or directory,
+  main.cpp
+C:\Users\alkad\Downloads\myPing\ping2020\ping2020\Diag.h(5,10): fatal error C1083: Не удается открыть файл включение: WinSock2.h: No such file or directory,
+  Создание кода...
